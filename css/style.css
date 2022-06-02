@@ -1,6 +1,85 @@
+@font-face {
+  font-family: cyberpunk;
+  src: url(../css/font/Cyberpunk.otf);
+  src: url(../css/font/Cyberpunk.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+
+#showcase{
+  width: 40%;
+  float: left;
+  background: url("https://i.pinimg.com/originals/8c/69/41/8c6941594c4fc8401528992a0b1eacc2.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  background-color: #111;
+
+}
+
+.register {
+  width: 60%;
+  float: left;
+  background:#000;
+}
+
+header {
+  padding: 20px 50px;
+  padding-top: 35vh;
+}
+
+header h1 {
+  font-family: "cyberpunk", "arial";
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(235, 220, 14);
+}
+
+ .tekst {
+  background: #111;
+  color: rgb(235, 220, 14);
+  font-family: "cyberpunk";
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.register h2 {
+  padding: 100px 50px;
+  font-weight: 900;
+  font-family: "cyberpunk";
+  color: rgb(235, 220, 14);
+  background-color: #111;
+}
+
+.left,
+.right {
+  width: 50%;
+  float: left;
+  padding: 20px 20px;
+  font-size: 1.5rem;
+  font-family: "cyberpunk";
+  color: rgb(235, 220, 14);
+}
+
+input {
+  font-size: 1.3rem;
+  border-radius: 3px;
+  border: 1px solid;
+  color: #000;
+  background: #555;
+}
+
+input:hover {
+background: rgb(235, 220, 14);
+box-shadow: 0 4px #333;
+}
+
+footer {
+  background: #111;
+  padding-bottom: ;
+}
